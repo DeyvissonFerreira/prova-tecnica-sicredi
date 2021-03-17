@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite Geral">
+	<test name="SISBR 3.0">
+		<classes>
+				<!-- 
+			<class name="funcionalidades.projetoSelo.chancela.Chancela"> 
+			<class name="funcionalidades.projetoSelo.edital.Edital">
+			<class name="funcionalidades.termoVoluntario.TermoVoluntario">
+			<class name="funcionalidades.planoAcao.executar.PlanoExeucao">
+			<class name="funcionalidades.programa.Programa">
+			<class name="funcionalidades.portifolio.Portifolio">
+			<class name="funcionalidades.meuPerfil.MeuPerfil">
+			<class name="funcionalidades.indicador.Indicador">
+			<class name="funcionalidades.bancoVoluntario.BancoVoluntario"> 
+			<class name="funcionalidades.projetoSelo.analise.AnaliseProjetoSelo">
+				<class name="funcionalidades.analiseVoluntario.AnaliseVoluntario"> 
+			<class name="funcionalidades.alterarTermo.AlterarTermo">
+			<class name="funcionalidades.assinaturaVoluntario.AssinaturaVoluntario">
+			<class name="funcionalidades.acoes.etapa.Etapa">
+			<class name="funcionalidades.acoes.AcoesPrograma">
+			<class name="funcionalidades.projetoSelo.cadastro.CadastroProjetoSelo">
+			<class name="funcionalidades.planoAcao.acompanhar.PlanoAcao">
+			<class name="funcionalidades.projetoSelo.publicacao.PublicacaoResultadoSelo"> 
+				<methods>
+					<include name="CEN16_ResponderQuestionarioIndicadores" />
+				</methods>
+			<class name="funcionalidades.planoAcao.acompanhar.PlanoAcao">
+					<include name="CEN02_CriarPlanoAcao" />
+					<include name="CEN13_CancelarImportarAcao" />
+					<include name="CEN14_ImportarAcao" />
+					<include name="CEN15_PesquisarAcaoImportada" />
+					<include name="CEN16_ExcluirAcaoImportada" />
+				-->
+			</class>
+		</classes>
+	</test>
+</suite>

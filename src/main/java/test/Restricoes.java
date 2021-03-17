@@ -8,9 +8,11 @@ import org.testng.annotations.Test;
 
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
+import support.Suporte;
 import type.CPF;
+import type.Mensagem;
 
-public class Restricoes {
+public class Restricoes extends Suporte{
 	
 	@BeforeClass
 	public void init() {
@@ -28,7 +30,7 @@ public class Restricoes {
 		.then()
 			.log().all()
 			.statusCode(200)
-			.body("mensagem", is("O CPF ".concat(CPF.CPF_RESTRICAO.getCPF()).concat(" tem problema")))
+			.body("mensagem", is(String.format(equalsMessage(Mensagem.MSG_CPF_RESTRICAO), getCPF(CPF.CPF_RESTRICAO))))
 		;
 	}
 }

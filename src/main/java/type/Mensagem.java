@@ -9,6 +9,7 @@ public enum Mensagem {
 	MSG_PARCELAS_ACIMA_MAXIMO("Parcelas deve ser igual ou menor que 48"),
 	MSG_PARCELA_OBRIGATORIA("Parcelas não pode ser vazio"),
 	MSG_CPF_OBRIGATORIO("CPF não pode ser vazio"),
+	MSG_CPF_RESTRICAO("O CPF %s tem problema"),
 	MSG_NOME_OBRIGATORIO("Nome não pode ser vazio"),
 	MSG_EMAIL_OBRIGATORIO("E-mail não deve ser vazio"),
 	MSG_VALOR_OBRIGATORIO("Valor não pode ser vazio"),

@@ -4,6 +4,7 @@ import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+import type.CPF;
 import type.Mensagem;
 
 public class Suporte {
@@ -16,6 +17,10 @@ public class Suporte {
 	
 	public String equalsMessage(Mensagem mensagem) {
 		return mensagem.getMensagem();
+	}
+	
+	public String getCPF(CPF cpf) {
+		return cpf.getCPF();
 	}
 
 }
